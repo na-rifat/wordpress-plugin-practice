@@ -1,0 +1,15 @@
+{
+    "name": "rifat/wedevs-academy",
+    "description": "Practice advanced plugin tutorial",
+    "type": "wordpress-plugin",
+    "license": "GPLv2",
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload":{
+        "psr-4":{
+            "WeDevs\\Academy\\":"includes/"
+        },
+        "files":["includes/functions.php"]
+    }
+   
+}
